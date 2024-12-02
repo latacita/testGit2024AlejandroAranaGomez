@@ -9,4 +9,11 @@
  (01)  clone
  (02)  (edito txt)
  (04)  Branch PrimeraRama + checkout PrimeraRama
+ (06)  Branch SegundaRama + checkout SegundaRama
  (11)  stash + checkout PrimeraRama 
+ (14)  La fusión de SegundaRama a PrimeraRama seria recursiva debido a que PrimeraRama a avanzado desde que se creo SegundaRama cuando hicimos el commit del Paso 12.
+ (15) La fusión de PrimeraRama a master seria fast-forward debido a que la rama no ha avanzado desde que creamos PrimeraRama ya que los cambios que hicimos en la rama master no los aplicamos y los guardamos en el stash.
+ (16) checkout SegundaRama
+
+ 
+
