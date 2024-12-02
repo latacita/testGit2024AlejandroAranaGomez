@@ -8,4 +8,11 @@
 ====== ============================ ================================
  (01)  clone
  (02)  (edito txt)
- 
+ (08)  git push origin SegundaRama
+ (09)  checkout master
+ (17)  checkout PrimeraRama
+ (18)  merge --no-ff SegundaRama             conflicto porque los pasos están desordenados y el paso 11 no esta en SegundaRama. Para arreglar el conflicto lo ordenamos 
+       add + commit "Conflictos Resueltos"
+ (19)  checkout master
+ (20)  stash apply
+
